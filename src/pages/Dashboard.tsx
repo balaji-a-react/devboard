@@ -53,7 +53,7 @@ function Dashboard() {
         <div style={{ fontSize: 14, fontWeight: 500, marginBottom: '1rem' }}>Saved profiles</div>
         {bookmarks.length === 0 ? (
           <div style={{ color: '#888', fontSize: 13, textAlign: 'center', padding: '1.5rem 0' }}>
-            No bookmarks yet — search a GitHub user and save them.
+            No bookmarks yet - search a GitHub user and save them.
           </div>
         ) : (
           bookmarks.map((b) => (
